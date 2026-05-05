@@ -7,7 +7,7 @@ Products::Sport::Clothing::Clothing()
 }
 
 Products::Sport::Clothing::Clothing(string name, float price, string manufacture, string wear_type, int size, int recommended_age, int quantity)
-	: Product(name, price, manufacture, recommended_age, quantity),wear_type(wear_type),size(size)
+	:Product(name, price, manufacture, recommended_age, quantity),wear_type(wear_type),size(size)
 {
 }
 

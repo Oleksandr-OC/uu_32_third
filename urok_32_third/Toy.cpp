@@ -10,14 +10,14 @@ Products::Fun::Toy::Toy(string name, float price, string manufacture, int age, i
 {
 }
 
-void Products::Fun::Toy::setMaterial() const
+void Products::Fun::Toy::setMaterial(string material)
 {
     this->material = material;
 }
 
 string Products::Fun::Toy::getMaterial() const
 {
-    return material();
+    return material;
 }
 
 void Products::Fun::Toy::show() const

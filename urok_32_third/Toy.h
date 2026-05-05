@@ -16,7 +16,7 @@ namespace Products{
 				int quantity,
 				string material);
 			
-			void setMaterial()const;
+			void setMaterial(string material);
 			string getMaterial()const;
 
 			virtual void show()const override;
