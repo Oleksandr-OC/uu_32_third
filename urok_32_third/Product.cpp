@@ -49,17 +49,17 @@ int Products::Product::getAge() const
 }
 
 
-void Products::Product::setName(string Name)
+void Products::Product::setName(string name)
 {
     this->name = name;
 }
 
-void Products::Product::setPrice(float Price)
+void Products::Product::setPrice(float price)
 {
     this->price = price;
 }
 
-void Products::Product::setManufacture(string Manufacture)
+void Products::Product::setManufacture(string manufacture)
 {
     this->manufacture = manufacture;
 }
@@ -69,7 +69,7 @@ void Products::Product::setQuantity(int quantity)
     this->quantity = quantity;
 }
 
-void Products::Product::setAge(int Age)
+void Products::Product::setAge(int age)
 {
     this->age = age;
 }
